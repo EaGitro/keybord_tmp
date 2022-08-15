@@ -29,6 +29,19 @@
         margin: 0.2% 0%; 
         padding: 0px;
     }
+    .normalB1 {
+        font-size: 100%;
+        font-weight: bold;
+        color: #E0FFFF;
+        background-color: #2f484d;
+        border-radius: 10%;
+        border: none;
+        width: 6.1%;
+        height: 15.5%;
+        font-family: 'fantasy', 'Yu Gothic', 'Yu Gothic Medium', 'メイリオ', 'MS ゴシック';
+        margin: 0.2% 0%; 
+        padding: 0px;
+    }
 
     .q {
         font-size: 100%;
@@ -58,6 +71,9 @@
         padding: 0px;
     }
     #keybord{
+        margin-left: -0.5%;
+        margin-right: auto;
+        text-align:center;
         position: fixed;
         bottom: 10px;
         height: 30%;
@@ -86,20 +102,20 @@ function numkeyPush(txt){
         <textarea id="maintxt"></textarea>
     </div>
     <div id="keybord">
-    <button class="normalB" id="key-ex" type="button" onclick="symkeyPush('!')">!</button>
-    <button class="normalB" id="key-wq" type="button" onclick="symkeyPush('&quot')">"</button>
-    <button class="normalB" id="key-sharp" type="button" onclick="symkeyPush('#')">#</button>
-    <button class="normalB" id="key-doller" type="button" onclick="symkeyPush('$')">$</button>
-    <button class="normalB" id="key-per" type="button" onclick="symkeyPush('%')">%</button>
-    <button class="normalB" id="key-sq" type="button" onclick="symkeyPush('\'')">'</button>
-    <button class="normalB" id="key-mk0" type="button" onclick="symkeyPush('(')">(</button>
-    <button class="normalB" id="key-mk1" type="button" onclick="symkeyPush(')')">)</button>
-    <button class="normalB" id="key--" type="button" onclick="symkeyPush('-')">-</button>
-    <button class="normalB" id="key-eq" type="button" onclick="symkeyPush('=')">=</button>
-    <button class="normalB" id="key-caret" type="button" onclick="symkeyPush('^')">^</button>
-    <button class="normalB" id="key-wave" type="button" onclick="symkeyPush('~')">~</button>
-    <button class="normalB" id="key-backslash" type="button" onclick="symkeyPush('\\')">\</button>
-    <button class="normalB" id="key-pipe" type="button" onclick="symkeyPush('|')">|</button>
+    <button class="normalB1" id="key-ex" type="button" onclick="symkeyPush('!')">!</button>
+    <button class="normalB1" id="key-wq" type="button" onclick="symkeyPush('&quot')">"</button>
+    <button class="normalB1" id="key-sharp" type="button" onclick="symkeyPush('#')">#</button>
+    <button class="normalB1" id="key-doller" type="button" onclick="symkeyPush('$')">$</button>
+    <button class="normalB1" id="key-per" type="button" onclick="symkeyPush('%')">%</button>
+    <button class="normalB1" id="key-sq" type="button" onclick="symkeyPush('\'')">'</button>
+    <button class="normalB1" id="key-mk0" type="button" onclick="symkeyPush('(')">(</button>
+    <button class="normalB1" id="key-mk1" type="button" onclick="symkeyPush(')')">)</button>
+    <button class="normalB1" id="key--" type="button" onclick="symkeyPush('-')">-</button>
+    <button class="normalB1" id="key-eq" type="button" onclick="symkeyPush('=')">=</button>
+    <button class="normalB1" id="key-caret" type="button" onclick="symkeyPush('^')">^</button>
+    <button class="normalB1" id="key-wave" type="button" onclick="symkeyPush('~')">~</button>
+    <button class="normalB1" id="key-backslash" type="button" onclick="symkeyPush('\\')">\</button>
+    <button class="normalB1" id="key-pipe" type="button" onclick="symkeyPush('|')">|</button>
     <br>
     <button class="q" id="redo" type="button" onclick="redo()">redo</button>
     <button class="normalB" id="key-1" type="button" onclick="numkeyPush(1)">1</button>
